@@ -1,0 +1,74 @@
+html {
+    overflow:auto;
+    background-color:#eeeeee;
+}
+
+.cover-container
+{
+    margin-bottom:0px;
+}
+
+.cover
+{    
+    height:240px;
+    overflow: hidden;
+    background-image: url(../images/bg.jpg);
+    margin:0px;
+    margin-top:-48px;    
+    background-size: contain;
+}
+
+.cover-controls
+{    
+    height:60px;    
+    margin:0px;
+    margin-top:-72px;    
+    background-color: rgba(255,255,255,0.80);    
+}
+
+.profile-usertitle
+{
+    text-shadow: 1px 1px 1px #506070;
+    display: block;
+    max-width:800px;
+    height:40px;
+    overflow:hidden;
+    text-align: left;    
+    color:black;
+}
+
+.overflow-hidden
+{
+    overflow: hidden;
+}
+
+.logo
+{   
+    background-image:url('../images/applogo.svg');
+    background-size:cover;
+}
+
+.logo :hover
+{
+    background-color: none;
+}
+
+.right-align
+{
+    text-align: right;
+}
+
+.profile-picture
+{
+    width:180px;    
+    height:180px;
+    margin-top:-195px;  
+    border-radius:50%;  
+    margin-left:20px;  
+    background-position: center;
+    background-color:#ffffff;    
+    box-shadow: #cccccc 1px 5px 20px;
+    padding:5px;
+    background-image:url(../images/dinosaur.png);
+    background-size:cover;
+}

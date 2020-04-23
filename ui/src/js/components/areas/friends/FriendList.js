@@ -18,64 +18,63 @@ export default class FriendList extends Component
     render() 
     {
         return(
-            <div className="w-full h-auto mx-auto mb-4 mt-4 bg-white border rounded-lg justify-center fl-images panel">  
-                <div class="pl-title m-2 mt-2 mb-2 grid grid-cols-2" >                    
-                    <div class="text-blue-600 bg-purple rounded-lg" href="#">                        
-                        <i class="fas fa-user-friends mr-2"></i>
-                        <span class="text-black font-medium">Friends</span>
-                        <span class="text-gray-500 font-normal ml-2">                             
-                            18</span>
-                    </div>
-                    <div class="text-blue-500 bg-purple text-right rounded-lg mr-2" href="#">                        
-                    <i class="fas fa-ellipsis-h mr-2"></i>
-                    </div>
-                </div>
-
-                <div className="float-none grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 mt-4 ml-2 mr-2">                    
-                    <div class="fl-attr">
-                        <img src={friend1}/>
-                        <span class="text-gray show-hover">Krishna S Santosh</span>
-                    </div>
-                                   
-                    <div class="fl-attr">
-                        <img src={friend2}/>
-                        <span class="text-gray show-hover">Siddharth Sid</span>
+                <div className="w-full h-auto mx-auto mb-4 mt-4 bg-white border rounded-lg justify-center fl-images panel">  
+                    <div class="pl-title mt-2 ml-2 mb-2 grid grid-cols-2" >
+                        <div class="text-blue-600 bg-purple rounded-lg" href="#">                        
+                            <i class="fas fa-user-friends mr-2"></i>
+                            <span class="text-black font-medium">Friends</span>
+                            <span class="text-gray-500 font-normal ml-2">                             
+                                18</span>
+                        </div>
+                        <div class="text-blue-500 bg-purple text-right rounded-lg mr-1" href="#">
+                            <i class="fas fa-ellipsis-h mr-2"></i>
+                        </div>
                     </div>
 
-                    <div class="fl-attr">
-                        <img src={friend3}/>
-                        <span class="text-gray show-hover">Ponnarath Subramanian</span>
-                    </div>           
-                    <div class="fl-attr">
-                        <img src={friend4}/>
-                        <span class="text-gray show-hover">L Sureshkumar Lsk</span>
-                    </div>
-                                   
-                    <div class="fl-attr">
-                        <img src={friend5}/>
-                        <span class="text-gray show-hover">Kamakshi Gottimukala</span>
-                    </div>
-                    <div class="fl-attr">
-                        <img src={friend6}/>
-                        <span class="text-gray show-hover">Rashmi Solanki</span>
-                    </div>
-                    <div class="fl-attr">
-                        <img src={friend7}/>
-                        <span class="text-gray show-hover">Nishant Vaikartana Das</span>
-                    </div>
-                                   
-                    <div class="fl-attr">
-                        <img src={friend8}/>
-                        <span class="text-gray show-hover">Þórsteinn Stilwell</span>
-                    </div>
+                    <div className="float-none grid sm:display-none md:display-none lg:grid-cols-2 xl:grid-cols-3 gap-1 mt-4 ml-2 mr-2">                    
+                        <div class="fl-attr">
+                            <img src={friend1}/>
+                            <span class="text-gray show-hover">Krishna S Santosh</span>
+                        </div>
+                                    
+                        <div class="fl-attr">
+                            <img src={friend2}/>
+                            <span class="text-gray show-hover">Siddharth Sid</span>
+                        </div>
 
-                    <div class="fl-attr">
-                        <img src={friend9}/>
-                        <span class="text-gray show-hover">Tina Ensley</span>
-                    </div>                
-                </div>
-                  
-          </div>
+                        <div class="fl-attr">
+                            <img src={friend3}/>
+                            <span class="text-gray show-hover">Ponnarath Subramanian</span>
+                        </div>           
+                        <div class="fl-attr">
+                            <img src={friend4}/>
+                            <span class="text-gray show-hover">L Sureshkumar Lsk</span>
+                        </div>
+                                    
+                        <div class="fl-attr">
+                            <img src={friend5}/>
+                            <span class="text-gray show-hover">Kamakshi Gottimukala</span>
+                        </div>
+                        <div class="fl-attr">
+                            <img src={friend6}/>
+                            <span class="text-gray show-hover">Rashmi Solanki</span>
+                        </div>
+                        <div class="fl-attr">
+                            <img src={friend7}/>
+                            <span class="text-gray show-hover">Nishant Vaikartana Das</span>
+                        </div>
+                                    
+                        <div class="fl-attr">
+                            <img src={friend8}/>
+                            <span class="text-gray show-hover">Þórsteinn Stilwell</span>
+                        </div>
+
+                        <div class="fl-attr">
+                            <img src={friend9}/>
+                            <span class="text-gray show-hover">Tina Ensley</span>
+                        </div>                
+                    </div>                  
+            </div>
         )
     }
 }

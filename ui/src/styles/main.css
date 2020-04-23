@@ -24,12 +24,13 @@
 {
     background-color:#ffffff;
     box-shadow:1px 5px 20px #c0c0c0;    
-    height:168px;
-    width:188px;
-    margin-top:-42px;
-    margin-left:-47px;
+    height:126px;
+    width:141px;
+    margin-top:-20px;
+    margin-left:-23px;
     position:fixed;
     z-index: 999;
+    cursor: pointer;
 }
 
 .pl-title
@@ -49,4 +50,21 @@
     box-shadow: 0px 0px 2px #888;
     padding: 0.5em 0.6em;
   
+  }
+
+
+  @media(max-width:1023px)
+  {
+    .hide-onshrink
+    {
+        display:none !important;
+    }
+  }
+
+  @media(min-width:1024px)
+  {
+    .hide-onshrink
+    {
+        display:block !important;
+    }
   }
